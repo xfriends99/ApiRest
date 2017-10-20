@@ -30,4 +30,10 @@ Route::group(['prefix' => 'twitter'], function (){
 
 Route::group(['prefix' => 'google'], function (){
     Route::get('{id}', 'GoogleController@user');
+    Route::get('{post_id}/comments', 'GoogleController@comments');
+});
+
+Route::group(['prefix' => 'youtube'], function (){
+    Route::get('{id}', 'YoutubeController@user');
+    Route::get('{post_id}/comments', 'YoutubeController@comments');
 });

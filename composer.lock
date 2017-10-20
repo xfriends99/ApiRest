@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7449333bb23d7de9c40d373575473c01",
+    "content-hash": "e4a290b43b59d9b6d02e7f9114cb07c4",
     "packages": [
         {
             "name": "artesaos/laravel-linkedin",
